@@ -5,6 +5,7 @@
 	border:0;
 	text-align: center;
 	font-family: "楷体","楷体_GB2312";  
+
 	
 } 
 
@@ -17,6 +18,11 @@
 	display:block; 
 	clear:both; 
 	height:0; } 
+   
+#header{
+	height: 25px;
+	background: pink;
+}
 
 	#wrap{ 
 		height:200px;
@@ -89,9 +95,16 @@
 		width:33%;
 		list-style-type:none;
 	}
-
+    
+   
 	.contain img {
+
 		height:78px;
 		background:black;
 		border-radius: 40px;
+	}
+
+	.footer{
+		position:fixed;
+            bottom:0;
 	}
